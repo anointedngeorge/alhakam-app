@@ -11,9 +11,9 @@
                 <div class="col-lg-12">
                     
                     <div class="title-area-left center">
-                        <span class="bg-title">Carrier</span>
+                        <span class="bg-title">Career</span>
                         <h1 class="title rts-text-anime-style-1">
-                            Carrier & Partnership Program
+                            Career & Partnership Program
                         </h1>
                     </div>
                 </div>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="appoinment-thumbnail">
-                        <img src="{{ config('data.footer_logo') }}" alt="appoinment">
+                        <img style="height: 100%;"  src="{{ asset('invena/images/gallery/c3.webp') }}" alt="appoinment">
                     </div>
                 </div>
             </div>
@@ -143,8 +143,9 @@
                 <div class="col-lg-12">
                     <div class="title-style-one eight center mb--30">
                         <span class="pre">Testimonial</span>
-                        <h2 class="title rts-text-anime-style-1 uppercase">What They Say About <br>
-                            <span>Our Company</span>
+                        <h2 class="title rts-text-anime-style-1 uppercase">What They Say About
+                         <br>
+                            <span>Our Program</span>
                         </h2>
                     </div>
                 </div>
@@ -161,15 +162,13 @@
                             <div class="col-lg-8">
                                 <div class="testimoanials-8-swiper">
                                     <div class="swiper mySwiper-testimonisl-8">
+
+
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
                                                 <div class="testimonails-inner-content">
                                                     <p class="disc">
-                                                        I can't recommend The Gourmet Haven enough. It's a place for
-                                                        special occasions,
-                                                        date nights, or whenever you're in the mood for a culinary
-                                                        adventure. The
-                                                        combination of exceptional.
+                                                        I can't recommend this career program enough. It's perfect for anyone seeking growth, new opportunities, or a transformative learning experience. The combination of exceptional training, guidance, and support makes it truly outstanding.
                                                     </p>
                                                     <div class="author-area">
                                                         <div class="avatar">
@@ -183,48 +182,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="swiper-slide">
-                                                <div class="testimonails-inner-content">
-                                                    <p class="disc">
-                                                        I can't recommend The Gourmet Haven enough. It's a place for
-                                                        special occasions,
-                                                        date nights, or whenever you're in the mood for a culinary
-                                                        adventure. The
-                                                        combination of exceptional.
-                                                    </p>
-                                                    <div class="author-area">
-                                                        <div class="avatar">
-                                                            <img src="invena/images/testimonials/avatar/03.webp"
-                                                                alt="avatar">
-                                                        </div>
-                                                        <div class="content">
-                                                            <h5 class="title">William Henry</h5>
-                                                            <p>Designer at <span>Vertex Agency</span> </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="testimonails-inner-content">
-                                                    <p class="disc">
-                                                        I can't recommend The Gourmet Haven enough. It's a place for
-                                                        special occasions,
-                                                        date nights, or whenever you're in the mood for a culinary
-                                                        adventure. The
-                                                        combination of exceptional.
-                                                    </p>
-                                                    <div class="author-area">
-                                                        <div class="avatar">
-                                                            <img src="invena/images/testimonials/avatar/03.webp"
-                                                                alt="avatar">
-                                                        </div>
-                                                        <div class="content">
-                                                            <h5 class="title">William Henry</h5>
-                                                            <p>Designer at <span>Vertex Agency</span> </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                          
                                         </div>
                                         <div class="swiper-pagination"></div>
                                     </div>
@@ -239,7 +197,7 @@
     <!-- rts testimoanisl area end -->
 
 
-    @include('frontend.theme1.component.general.brand')
+    {{-- @include('frontend.theme1.component.general.brand') --}}
     <!-- rts brand area end -->
 
     <!-- rts cta area start -->
