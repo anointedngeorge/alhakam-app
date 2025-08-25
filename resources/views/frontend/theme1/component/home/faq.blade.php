@@ -66,8 +66,8 @@
             <div class="col-lg-6">
                 <div class="faq-one-thumbnail-wrapper-right" data-animation="zoomOut" data-delay="0.2"
                     data-duration="1.2">
-                    <div class="thumbnail">
-                        <img src="{{ asset(config('data.footer_logo'), ) }}" alt="faq">
+                    <div class="thumbnai">
+                        <img style="100%" src="{{ asset('invena/images/gallery/m6.jpg') }}" alt="faq">
                     </div>
                 </div>
             </div>

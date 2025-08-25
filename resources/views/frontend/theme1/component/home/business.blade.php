@@ -81,8 +81,8 @@ $contents = (object) [
         <div class="row  align-items-center">
             <div class="col-lg-6">
                 <div class="business-solution-area-left-thumbnail">
-                    <div class="iamge-large">
-                        <img src="{{ asset(config('data.footer_logo'),) }}" alt="choose">
+                    <div class="iamg-large">
+                        <img src="{{ asset('invena/images/gallery/m1.webp') }}" alt="choose">
                     </div>
                     {{-- <div class="small-mobile">
                         <img src="invena/images/why-choose/07.webp" alt="choose">

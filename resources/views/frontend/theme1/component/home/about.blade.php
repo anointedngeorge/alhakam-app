@@ -17,7 +17,7 @@ job creation especially in the area of agriculture..."
         ]
     ],
 
-    'bigImage' => asset('invena/images/about/bg2.png'),
+    'bigImage' => asset('invena/images/gallery/g3.jpg'),
     'smallImage' => asset('invena/images/about/09.webp'),
     'link' => 'https://www.youtube.com/watch?v=vZE0j_WCRvI',
     'dataList' => (object) [
@@ -82,8 +82,8 @@ job creation especially in the area of agriculture..."
             </div>
             <div class="col-lg-5">
                 <div class="thumbnail-about-right-4">
-                    <div class="large-iamge">
-                        <img src="{{ $about->bigImage }}" alt="about">
+                    <div class="large-iamg">
+                        <img style="height: 100%;" src="{{ $about->bigImage }}" alt="about">
                     </div>
                     {{-- <div class="small-image images-r">
                         <img src="{{ $about->smallImage }}" alt="about">

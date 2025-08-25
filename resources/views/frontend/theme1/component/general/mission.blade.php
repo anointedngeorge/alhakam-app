@@ -4,7 +4,7 @@ $contents = (object) [
         'title' => 'Our Vision',
         'subTitle' => '',
         'icon' => asset('invena/images/project/01.svg'),
-        'image' => asset(config('data.footer_logo'),),
+        'image' => asset('invena/images/gallery/g3.jpg'),
         'content' => "To be a clear leader in our chosen business interest in Nigeria and a Regional
 market.",
         'link' => (object) [
@@ -17,7 +17,7 @@ market.",
         'title' => 'Our Mission',
         'subTitle' => '',
         'icon' => asset('invena/images/project/01.svg'),
-        'image' => asset(config('data.footer_logo'),),
+        'image' => asset('invena/images/gallery/g4.jpg'),
         'content' => "To meet and exceed our customer's needs by providing quality and safe
 products and services based on global standards and in an ethical manner.",
         'link' => (object) [
@@ -52,7 +52,7 @@ products and services based on global standards and in an ethical manner.",
                                         <div class="col-lg-5">
                                             <div class="project-content-left-5">
                                                 <div class="icon">
-                                                    <img src="{{ $content->icon }}" alt="project">
+                                                    <img  src="{{ $content->icon }}" alt="project">
                                                 </div>
                                                 <div class="title-area">
                                                     <h6 class="title">{{ $content->title }}</h6>
@@ -67,7 +67,7 @@ products and services based on global standards and in an ethical manner.",
                                         </div>
                                         <div class="col-lg-7">
                                             <div class="thumbnail-project-5">
-                                                <img src="{{ $content->image }}" alt="project">
+                                                <img style="height:100%" src="{{ $content->image }}" alt="project">
                                             </div>
                                         </div>
                                     </div>

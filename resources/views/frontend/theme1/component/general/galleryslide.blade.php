@@ -2,22 +2,33 @@
     $galleries = (object) [
     (object) [
         'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/logo/logo-3.png'),
+        'image' => asset('invena/images/gallery/g1.webp'),
         'subTitle' => 'Business Strategy',
     ],
     (object) [
         'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/logo/logo-3.png'),
+        'image' => asset('invena/images/gallery/g2.webp'),
         'subTitle' => 'Business Strategy',
     ],
     (object) [
         'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/logo/logo-3.png'),
+        'image' => asset('invena/images/gallery/g3.jpg'),
         'subTitle' => 'Business Strategy',
     ],
     (object) [
         'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/logo/logo-3.png'),
+        'image' => asset('invena/images/gallery/g4.jpg'),
+        'subTitle' => 'Business Strategy',
+    ],
+    (object) [
+        'title' => 'Digital Business Solution',
+        'image' => asset('invena/images/gallery/g6.jpg'),
+        'subTitle' => 'Business Strategy',
+    ],
+
+    (object) [
+        'title' => 'Digital Business Solution',
+        'image' => asset('invena/images/gallery/g7.jpeg'),
         'subTitle' => 'Business Strategy',
     ],
 ]
@@ -51,7 +62,7 @@
                                 <div class="swiper-slide">
                                     <div class="single-case-studies-four">
                                         <a href="#" class="thumbnail">
-                                            <img src="{{ $dt->image }}" alt="project">
+                                            <img  style="height: 350px; width: 100%;" src="{{ $dt->image }}" alt="project">
                                         </a>
                                         <div class="inner">
                                             <a href="#">
