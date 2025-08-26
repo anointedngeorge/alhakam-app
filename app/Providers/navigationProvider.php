@@ -41,7 +41,7 @@ class navigationProvider extends ServiceProvider
                     'show_on_header' => true
                 ],
                 (object) [
-                    'title' => 'Carrier',
+                    'title' => 'Career',
                     'url' => route('frontend.index', ['q' => 'carrier']),
                     'show_on_footer' => true,
                     'show_on_header' => false

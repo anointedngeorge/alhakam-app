@@ -22,7 +22,7 @@
 
 
       <!-- rts team area start -->
-      @include('frontend.theme1.component.general.team_management')
+      {{-- @include('frontend.theme1.component.general.team_management') --}}
       <!-- rts team area end -->
 
     <!-- rts clients review area start -->

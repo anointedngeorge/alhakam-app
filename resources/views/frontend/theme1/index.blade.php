@@ -50,7 +50,7 @@
 
 
      <!-- rts blog area start -->
-     @include('frontend.theme1.component.general.team_management')
+     @include('frontend.theme1.component.general.team')
      <!-- rts blog area end -->
 
     <!-- rts appoinment area start -->
