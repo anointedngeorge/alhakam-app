@@ -14,7 +14,7 @@ return [
     'instagram' => '#',
     'whatsapp' => "+2340002034303",
     'url' => 'https://example.com/',
-    'logo' => 'invena/images/logo/logo-4.png',
+    'logo' => 'invena/images/logo/logo-6.jpg',
     'footer_logo' => 'invena/images/logo/logo-5.jpg',
     'fav' => 'invena/images/logo/favicon.png',
     'links' => [
