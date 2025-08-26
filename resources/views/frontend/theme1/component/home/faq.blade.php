@@ -31,9 +31,9 @@
                 <div class="faq-main-wrapper-content-inner-four">
                     <div class="title-style-four left">
                         <span class="pre">faq</span>
-                        <h2 class="title rts-text-anime-style-1">Innovative Business Solutions <br>
-                            <span>Backed by Experience</span>
-                        </h2>
+                        <h3 class="title rts-text-anime-style-1">Innovative Solutions <br>
+                            <span style="font-size: 20px;">Powered by Experience</span>
+                        </h3>
                     </div>
                     <div class="accordion mt--40" id="accordionExample">
                         @foreach ($faqs as $num => $faq)

@@ -15,7 +15,7 @@ return [
     'whatsapp' => "+2340002034303",
     'url' => 'https://example.com/',
     'logo' => 'invena/images/logo/logo-4.png',
-    'footer_logo' => 'invena/images/logo/logo-3.png',
+    'footer_logo' => 'invena/images/logo/logo-5.jpg',
     'fav' => 'invena/images/logo/favicon.png',
     'links' => [
         ['title' => 'Home', 'classname' => 'active', 'link' => '/', 'index' => 1, 'has_children' => false, 'children' => []],
@@ -25,47 +25,10 @@ return [
     'title' => "Nagari Integrated Dairy Farms",
     'meta_description' => "",
     'why_choose_us' => "",
-    'meta_keywords' => 'Nagari, nagarifarms, farms, nagari farms, producton, milk, cow milk',
-    "footer_about" => "We must explain to you how all seds this mistakens idea denouncing pleasures and praising account. All seds this mistakens idea denouncing pleasures.",
+    'meta_keywords' => 'agriculture, transformation, farms, agenda, Manufacturing, Financial Services, Commodity Exports, Real Estate, Infrastructures Development',
+    "footer_about" => "The company proactively identifies growth opportunities in various industries of interest. Founded in 2020, Al'Hakam Holdings has built a sizable portfolio of investments.",
 
     "dash_meta" => "",
-    "dash_description" => "",
-
-    'teams' => (object) [
-        (object) [
-            'name' => 'Kevin Martin',
-            'image' => 'invena/images/team/01.webp',
-            'position' => 'Consultant',
-            'fb' => '#',
-            'lk' => '#',
-            'is' => '#'
-        ],
-        (object) [
-            'name' => 'Kevin Martin',
-            'image' => 'invena/images/team/02.webp',
-            'position' => 'Consultant',
-            'fb' => '#',
-            'lk' => '#',
-            'is' => '#'
-        ],
-
-        (object) [
-            'name' => 'Kevin Martin',
-            'image' => 'invena/images/team/03.webp',
-            'position' => 'Consultant',
-            'fb' => '#',
-            'lk' => '#',
-            'is' => '#'
-        ],
-        (object) [
-            'name' => 'Kevin Martin',
-            'image' => 'invena/images/team/03.webp',
-            'position' => 'Consultant',
-            'fb' => '#',
-            'lk' => '#',
-            'is' => '#'
-        ],
-    ],
-
+    "dash_description" => ""
 
 ];
