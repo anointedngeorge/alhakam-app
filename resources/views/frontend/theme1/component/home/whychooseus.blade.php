@@ -73,7 +73,7 @@ palm trees and a cattle feed lot.",
 
     (object) [
         'title' => 'ADA Microfinance Bank Ltd',
-        'image' => 'invena/images/why-choose/04.webp',
+        'image' => 'invena/images/gallery/bank2.png',
         'icon' => 'invena/images/why-choose/icons/01.svg',
         'content' => "ADA Microfinance Bank Limited was incorporated in Nigeria under the
 Companies and Allied Matter Act as a Private Limited Liability Company on the
@@ -92,7 +92,7 @@ Garaku.",
 
     (object) [
         'title' => 'HALAL-CUTS ULTRA MODERN ABATTOIR LTD',
-        'image' => 'invena/images/why-choose/04.webp',
+        'image' => 'invena/images/gallery/ab3.jpg',
         'icon' => 'invena/images/why-choose/icons/01.svg',
         'content' => "Rahama Fisheries Limited (RFL) is considered one of the leading fish farm in north
 central Nigeria. Incorporated on the 20 of December 2019, RFL is becoming widely
