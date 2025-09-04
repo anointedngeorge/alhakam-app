@@ -59,7 +59,6 @@ palm trees and a cattle feed lot.",
     <div class="swiper mySwiper-banner-four">
         <div class="swiper-wrapper">
             @foreach ($slides as $slide)
-
                 <div class="swiper-slide">
                     <div class="swiper-area-banner-four-wrapper">
                         <div class="banner-four-bg bg_image" style="background-image: url('{{ asset($slide->image) }}');">
@@ -87,19 +86,17 @@ palm trees and a cattle feed lot.",
                     </div>
                 </div>
             @endforeach;
-
             {{-- --}}
-
         </div>
     </div>
 
     <div class="swiper-pagination"></div>
     <div class="banner-shape-left-right">
         <div class="left">
-            <img src="{{ asset('invena/images/banner/shape/left.svg') }}" alt="left">
+            {{-- <img src="{{ asset('invena/images/banner/shape/left.svg') }}" alt="left"> --}}
         </div>
         <div class="right">
-            <img src="{{ asset('invena/images/banner/shape/right.svg') }}" alt="left">
+            {{-- <img src="{{ asset('invena/images/banner/shape/right.svg') }}" alt="left"> --}}
         </div>
     </div>
 </div>

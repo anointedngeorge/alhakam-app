@@ -4,13 +4,13 @@ $reviews = (object) [
         'name' => 'MGT',
         'content' => "Working with this team has been an incredible experience. They understood my business needs perfectly and delivered solutions that exceeded my expectations. Highly professional and reliable — I couldn’t ask for better!",
         'pos' => (object) ['first' => 'Designer at', 'last' => 'nagari farms'],
-        'image' => asset(config('data.footer_logo'), )
+        'image' => asset("invena/images/about/av1.png")
     ],
     (object) [
         'name' => 'MGT',
         'content' => "I was impressed by their level of expertise and commitment. From the initial consultation to the final delivery, everything was seamless. Our productivity has improved significantly thanks to their innovative approach.”",
         'pos' => (object) ['first' => 'Designer at', 'last' => 'Operations Manager'],
-        'image' => asset(config('data.footer_logo'), )
+        'image' => asset("invena/images/about/av2.png")
     ],
 ];
 ?>

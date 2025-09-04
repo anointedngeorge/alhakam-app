@@ -14,7 +14,7 @@
     <!-- rts about area end -->
 
      <!-- rts business goal area start -->
-     @include('frontend.theme1.component.about.goal')
+     @include('frontend.theme1.component.general.mission')
 
     <!-- rts team area start -->
     @include('frontend.theme1.component.general.team')

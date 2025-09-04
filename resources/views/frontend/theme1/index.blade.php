@@ -18,15 +18,17 @@
     @include('frontend.theme1.component.home.whychooseus')
     <!-- why choose us area end -->
 
-    <!-- rts call to action area start -->
-    {{-- @include('frontend.theme1.component.home.calltoaction') --}}
-    @include('frontend.theme1.component.general.subscribe')
-    <!-- rts call to action area end -->
 
 
     {{-- mission --}}
     @include('frontend.theme1.component.general.mission')
     {{-- end mission --}}
+
+
+
+    {{-- @include('frontend.theme1.component.home.calltoaction') --}}
+    @include('frontend.theme1.component.general.subscribe')
+    <!-- rts call to action area end -->
 
     <!-- business solution area start -->
     @include('frontend.theme1.component.home.business')
@@ -41,7 +43,7 @@
     <!-- rts business case area end -->
 
     <!-- rtsd faq area start -->
-    @include('frontend.theme1.component.home.faq')
+    {{-- @include('frontend.theme1.component.home.faq') --}}
     <!-- rtsd faq area end -->
 
     <!-- rts team area start -->
@@ -53,16 +55,14 @@
      @include('frontend.theme1.component.general.team')
      <!-- rts blog area end -->
 
-    <!-- rts appoinment area start -->
-    @include('frontend.theme1.component.home.appointment')
-    <!-- rts appoinment area end -->
-
-
-   
 
     <!-- rts business case area start -->
     @include('frontend.theme1.component.general.galleryslide')
     <!-- rts business case area end -->
+    
 
+    <!-- rts appoinment area start -->
+    @include('frontend.theme1.component.home.appointment')
+    <!-- rts appoinment area end -->
 
 @endsection
