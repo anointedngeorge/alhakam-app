@@ -22,7 +22,7 @@
     ],
     (object) [
         'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/gallery/g6.jpg'),
+        'image' => asset('invena/images/gallery/g8.jpeg'),
         'subTitle' => 'Business Strategy',
     ],
 
@@ -64,12 +64,12 @@
                                         <a href="#" class="thumbnail">
                                             <img  style="height: 350px; width: 100%;" src="{{ $dt->image }}" alt="project">
                                         </a>
-                                        <div class="inner">
+                                        {{-- <div class="inner">
                                             <a href="#">
                                                 <h3 class="title">{{ $dt->title }}</h3>
                                                 <span>{{ $dt->subTitle }}</span>
                                             </a>
-                                        </div>
+                                        </div> --}}
                                         <div class="eye">
                                             <img src="{{ asset('invena/images/project/eye.svg') }}" alt="project">
                                         </div>

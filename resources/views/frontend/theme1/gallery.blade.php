@@ -24,15 +24,26 @@ $photos = $galleries = (object) [
         'image' => asset('invena/images/gallery/g4.jpg'),
         'subTitle' => 'Business Strategy',
     ],
+    // (object) [
+    //     'title' => 'Digital Business Solution',
+    //     'image' => asset('invena/images/gallery/g6.jpg'),
+    //     'subTitle' => 'Business Strategy',
+    // ],
+
     (object) [
         'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/gallery/g6.jpg'),
+        'image' => asset('invena/images/gallery/g7.jpeg'),
         'subTitle' => 'Business Strategy',
     ],
 
     (object) [
         'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/gallery/g7.jpeg'),
+        'image' => asset('invena/images/gallery/g8.jpeg'),
+        'subTitle' => 'Business Strategy',
+    ],
+    (object) [
+        'title' => 'Digital Business Solution',
+        'image' => asset('invena/images/gallery/g9.jpeg'),
         'subTitle' => 'Business Strategy',
     ],
 ]

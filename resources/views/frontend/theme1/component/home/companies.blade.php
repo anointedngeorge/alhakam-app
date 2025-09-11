@@ -54,7 +54,7 @@ and feed mill sections.",
 
     (object) [
         'title' => 'New Keffi Hotel',
-        'image' => 'invena/images/banner/hotel.jpg',
+        'image' => 'invena/images/banner/hotel2.jpg',
         'icon' => 'invena/images/why-choose/icons/01.svg',
         'content' => "New Keffi Hotel is the first hospitality outfit in Keffi. Established in 1950
 as a Rest House and has maintained its position as the premium hotel in
