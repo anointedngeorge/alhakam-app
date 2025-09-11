@@ -2,8 +2,8 @@
 
 return [
     'name' => "Al'Hakam Holdings Ltd ",
-    'phone1' => '(+234) 803-099-1029',
-    'phone2' => '(+234) 803-099-1029',
+    'phone1' => '(+234) 701-077-7824',
+    'phone2' => '(+234) 803-669-7824',
     'address' => 'No. 9 Abu Abubakar Street, GRA, Keffi, Nasarawa',
     'email' => "support@alhakamholdings.com",
     'time' => '09.00 AM - 05.00 PM',

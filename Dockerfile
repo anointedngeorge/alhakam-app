@@ -8,7 +8,8 @@ RUN apt-get update && apt-get install -y \
     libjpeg-dev \
     libonig-dev \
     libxml2-dev \
-    libicu-dev \ 
+    libicu-dev \
+    libpq-dev \
     zip \
     unzip \
     curl \
@@ -17,17 +18,15 @@ RUN apt-get update && apt-get install -y \
     nodejs \
     nginx \
     supervisor \
+    net-tools \
     && docker-php-ext-configure intl \
-    && docker-php-ext-install intl
-    
-
-# Install PHP extensions
-# RUN docker-php-ext-install pdo pdo_mysql mbstring exif pcntl bcmath gd
-RUN apt-get update && apt-get install -y libpq-dev \
-    && docker-php-ext-install pdo_pgsql pgsql
+    && docker-php-ext-install intl \
+    && docker-php-ext-install pdo_pgsql pgsql \
+    && docker-php-ext-install mbstring exif pcntl bcmath gd \
+    && rm -rf /var/lib/apt/lists/*
 
 
-RUN apt-get update && apt-get install -y net-tools
+# RUN apt-get update && apt-get install -y net-tools
 
 
 # Install Composer
@@ -45,15 +44,15 @@ RUN composer install --no-dev --optimize-autoloader
 # install faker
 RUN composer require fakerphp/faker
 # Install Node dependencies and build assets
-RUN npm install
+# RUN npm install
 
 # Build
-RUN npm run build
+# RUN npm run build
 
 # Set file permissions
 RUN chown -R www-data:www-data /var/www \
     && chmod -R 775 /var/www/storage
-
+# RUN chmod -R 775 /var/www/storage
 # Expose port
 EXPOSE 7982
 

@@ -56,6 +56,15 @@
                         </div>
                         <div class="signle-footer-contact-8">
                             <div class="icon">
+                                <i class="fa-solid fa-phone-alt"></i>
+                            </div>
+                            <div class="inner-content">
+                                <h5 class="title">Call Us 24/7</h5>
+                                <a href="#">{{ config('data.phone2') }}</a>
+                            </div>
+                        </div>
+                        <div class="signle-footer-contact-8">
+                            <div class="icon">
                                 <i class="fa-solid fa-envelope"></i>
                             </div>
                             <div class="inner-content">

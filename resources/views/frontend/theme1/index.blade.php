@@ -15,7 +15,7 @@
     <!-- rts brand area end -->
 
     <!-- why choose us area start -->
-    @include('frontend.theme1.component.home.whychooseus')
+    @include('frontend.theme1.component.home.companies')
     <!-- why choose us area end -->
 
 

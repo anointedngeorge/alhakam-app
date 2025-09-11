@@ -79,7 +79,7 @@
                                 <img src="invena/images/fun/06.svg" alt="fun">
                             </div>
                             <div class="right-counter">
-                                <h2 class="counter title"><span class="odometer" data-count="70">00</span>%
+                                <h2 class="counter title"><span class="odometer" data-count="40">00</span>%
                                 </h2>
                                 <p>Program Awards</p>
                             </div>
@@ -102,7 +102,7 @@
                             <span class="pre">Register For Our Carrier & Partnership</span>
                             <h2 class="title">Program</h2>
                         </div>
-                        <form action="#">
+                        <form action="#" onsubmit="alert('We are currently not running any partnership program.')">
                             <div class="single-input-wrapper">
                                 <div class="single-input">
                                     <input type="text" placeholder="Your Name">
@@ -172,12 +172,12 @@
                                                     </p>
                                                     <div class="author-area">
                                                         <div class="avatar">
-                                                            <img src="invena/images/testimonials/avatar/03.webp"
+                                                            <img style="width: 80px; height: 80px; border-radius: 100px;" src="{{ asset("invena/images/about/av2.png") }}"
                                                                 alt="avatar">
                                                         </div>
                                                         <div class="content">
                                                             <h5 class="title">William Henry</h5>
-                                                            <p>Designer at <span>Vertex Agency</span> </p>
+                                                            <p>Designer at <span>Student</span> </p>
                                                         </div>
                                                     </div>
                                                 </div>

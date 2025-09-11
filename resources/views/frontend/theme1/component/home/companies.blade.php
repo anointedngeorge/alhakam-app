@@ -52,6 +52,21 @@ and feed mill sections.",
         ]
     ],
 
+    (object) [
+        'title' => 'New Keffi Hotel',
+        'image' => 'invena/images/banner/hotel.jpg',
+        'icon' => 'invena/images/why-choose/icons/01.svg',
+        'content' => "New Keffi Hotel is the first hospitality outfit in Keffi. Established in 1950
+as a Rest House and has maintained its position as the premium hotel in
+the beautiful town of Keffi. New Keffi Hotel is strategically positioned
+along the Keffi-Akwanga Express way with easy access to different
+routes: Abuja, Kaduna, Jos etc. ",
+        'link' => (object) [
+            'title' => 'Read More',
+            'link' => route('frontend.index')
+        ]
+    ],
+
 
     (object) [
         'title' => 'NAGARI FRESH FARMS LTD',
