@@ -1,6 +1,14 @@
 <?php
 $teams = (object) [
     (object) [
+        'name' => 'Senator (Dr.) Abdullahi Adamu, CON',
+        'image' => "invena/images/about/founder.png",
+        'position' => 'Founder',
+        'fb' => '#',
+        'lk' => '#',
+        'is' => '#'
+    ],
+    (object) [
         'name' => 'PROF ODE OJOWU, OFR',
         'image' => "invena/images/about/av1.png",
         'position' => 'Chairman of the Board',
@@ -79,7 +87,7 @@ $teams = (object) [
                                 data-duration="1.2"> --}}
                                 <div class="single-team-area-one-start">
                                     <a href="team-details.html" class="thumbnail">
-                                        <img src="{{ asset($team->image) }}" alt="team">
+                                        <img width="350" height="350" src="{{ asset($team->image) }}" alt="team">
                                     </a>
                                     <div class="inner-content">
                                         <div class="inner">
