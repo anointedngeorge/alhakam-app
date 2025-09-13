@@ -10,7 +10,7 @@ $teams = (object) [
     ],
     (object) [
         'name' => 'PROF ODE OJOWU, OFR',
-        'image' => "invena/images/about/av1.png",
+        'image' => "invena/images/about/b1.jpeg",
         'position' => 'Chairman of the Board',
         'fb' => '#',
         'lk' => '#',
@@ -18,7 +18,7 @@ $teams = (object) [
     ],
     (object) [
         'name' => 'Arc. Kabir Ibrahim',
-        'image' => "invena/images/about/av2.png",
+        'image' => "invena/images/about/b3.jpeg",
         'position' => 'Director',
         'fb' => '#',
         'lk' => '#',
@@ -27,7 +27,7 @@ $teams = (object) [
 
     (object) [
         'name' => 'DR. ABDULKARIM KANA',
-        'image' => "invena/images/about/av5.png",
+        'image' => "invena/images/about/b4.jpeg",
         'position' => 'Director',
         'fb' => '#',
         'lk' => '#',
@@ -35,7 +35,7 @@ $teams = (object) [
     ],
     (object) [
         'name' => 'ENGR. MUHAMMAD NURAINI',
-        'image' => "invena/images/about/av4.png",
+        'image' => "invena/images/about/b5.jpeg",
         'position' => 'Director',
         'fb' => '#',
         'lk' => '#',
@@ -44,7 +44,7 @@ $teams = (object) [
 
     (object) [
         'name' => 'MUHAMMAD KABIR ABUBAKAR',
-        'image' => "invena/images/about/av5.png",
+        'image' => "invena/images/about/av2.png",
         'position' => 'Director',
         'fb' => '#',
         'lk' => '#',
@@ -53,7 +53,7 @@ $teams = (object) [
 
     (object) [
         'name' => 'PIUS ADEMU AKUBO, SAN, FCArb',
-        'image' => "invena/images/about/av1.png",
+        'image' => "invena/images/about/b2.jpeg",
         'position' => 'Director',
         'fb' => '#',
         'lk' => '#',
@@ -87,7 +87,7 @@ $teams = (object) [
                                 data-duration="1.2"> --}}
                                 <div class="single-team-area-one-start">
                                     <a href="team-details.html" class="thumbnail">
-                                        <img width="350" height="350" src="{{ asset($team->image) }}" alt="team">
+                                        <img style="width: 100%; height: 500px;" src="{{ asset($team->image) }}" alt="team">
                                     </a>
                                     <div class="inner-content">
                                         <div class="inner">

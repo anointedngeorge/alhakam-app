@@ -36,7 +36,7 @@ $photos = collect(File::files(public_path($path)))
                                 <div class="swiper-slide">
                                     <div class="single-case-studies-four">
                                         <a href="#" class="thumbnail">
-                                            <img  style="height: 350px; width: 100%;" src="{{ asset($path . '/' . $photo) }}" alt="project">
+                                            <img  style="height: 350px; width: 100%; border-radius: 20px;" src="{{ asset($path . '/' . $photo) }}" alt="project">
                                         </a>
                                         {{-- <div class="inner">
                                             <a href="#">
