@@ -1,37 +1,11 @@
 <?php 
-    $galleries = (object) [
-    (object) [
-        'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/gallery/g1.webp'),
-        'subTitle' => 'Business Strategy',
-    ],
-    (object) [
-        'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/gallery/g2.webp'),
-        'subTitle' => 'Business Strategy',
-    ],
-    (object) [
-        'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/gallery/g3.jpg'),
-        'subTitle' => 'Business Strategy',
-    ],
-    (object) [
-        'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/gallery/g4.jpg'),
-        'subTitle' => 'Business Strategy',
-    ],
-    (object) [
-        'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/gallery/g8.jpeg'),
-        'subTitle' => 'Business Strategy',
-    ],
+    use Illuminate\Support\Facades\File;
 
-    (object) [
-        'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/gallery/g7.jpeg'),
-        'subTitle' => 'Business Strategy',
-    ],
-]
+$path = 'invena/images/gallery/folder1'; // relative to public/
+$photos = collect(File::files(public_path($path)))
+    ->filter(fn($file) => !in_array($file->getFilename(), []))
+    ->map(fn($file) => $file->getFilename())
+    ->toArray();
 
 ?>
 
@@ -58,11 +32,11 @@
                     <div class="swiper mySwiper-case-studies-5">
                         <div class="swiper-wrapper">
 
-                            @foreach ($galleries as $dt)
+                            @foreach ($photos as $photo)
                                 <div class="swiper-slide">
                                     <div class="single-case-studies-four">
                                         <a href="#" class="thumbnail">
-                                            <img  style="height: 350px; width: 100%;" src="{{ $dt->image }}" alt="project">
+                                            <img  style="height: 350px; width: 100%;" src="{{ asset($path . '/' . $photo) }}" alt="project">
                                         </a>
                                         {{-- <div class="inner">
                                             <a href="#">

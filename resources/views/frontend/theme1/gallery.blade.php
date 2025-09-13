@@ -2,58 +2,20 @@
 
 
 <?php
+use Illuminate\Support\Facades\File;
 
-$photos = $galleries = (object) [
-    (object) [
-        'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/gallery/g1.webp'),
-        'subTitle' => 'Business Strategy',
-    ],
-    (object) [
-        'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/gallery/g2.webp'),
-        'subTitle' => 'Business Strategy',
-    ],
-    (object) [
-        'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/gallery/g3.jpg'),
-        'subTitle' => 'Business Strategy',
-    ],
-    (object) [
-        'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/gallery/g4.jpg'),
-        'subTitle' => 'Business Strategy',
-    ],
-    // (object) [
-    //     'title' => 'Digital Business Solution',
-    //     'image' => asset('invena/images/gallery/g6.jpg'),
-    //     'subTitle' => 'Business Strategy',
-    // ],
-
-    (object) [
-        'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/gallery/g7.jpeg'),
-        'subTitle' => 'Business Strategy',
-    ],
-
-    (object) [
-        'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/gallery/g8.jpeg'),
-        'subTitle' => 'Business Strategy',
-    ],
-    (object) [
-        'title' => 'Digital Business Solution',
-        'image' => asset('invena/images/gallery/g9.jpeg'),
-        'subTitle' => 'Business Strategy',
-    ],
-]
-
+$path = 'invena/images/gallery/folder1'; // relative to public/
+$photos = collect(File::files(public_path($path)))
+    ->filter(fn($file) => !in_array($file->getFilename(), []))
+    ->map(fn($file) => $file->getFilename())
+    ->toArray();
 ?>
 
 
 @section('content')
     <!-- partners area breadcrumb area wrapper -->
-    {{-- <div class="partner-breadcrumb bg_image" style="background-image: url('{{ asset('invena/images/gallery/c3.webp') }}');">
+    {{-- <div class="partner-breadcrumb bg_image"
+        style="background-image: url('{{ asset('invena/images/gallery/c3.webp') }}');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -80,7 +42,8 @@ $photos = $galleries = (object) [
                                 <div class="col-md-4">
                                     <div class="single-gallery">
                                         <a href="#" class="thumbnail gallery-image">
-                                            <img style="height: 250px; width: 100%;" src="{{ $photo->image }}" alt="gallery">
+                                            <img style="height: 300px; width: 100%; border-radius: 20px;" src="{{ asset($path . '/' . $photo) }}"
+                                                alt="gallery">
                                         </a>
                                         <div class="instagram">
                                             <img src="{{ asset('invena/images/gallery/instagram.svg') }}" alt="instagram.svg">
