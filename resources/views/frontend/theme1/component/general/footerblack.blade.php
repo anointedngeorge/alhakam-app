@@ -5,7 +5,7 @@
             <div class="col-lg-3">
                 <div class="footer-logo-area-left-8">
                     <a href="#" class="logo">
-                        <img style="height:120px;" src="{{ config('data.footer_logo') }}" alt="logo">
+                        <img style="height:120px;" src="{{ asset(config('data.footer_logo')) }}" alt="logo">
                     </a>
                     <p class="disc">
                         {{ config('data.footer_about') }}
@@ -23,7 +23,7 @@
                 <div class="footer-one-single-wized">
                     <div class="wized-title">
                         <h5 class="title">Quick Links</h5>
-                        <img src="invena/images/footer/under-title.png" alt="finbiz_footer">
+                        <img src="{{ asset('invena/images/footer/under-title.png') }}" alt="finbiz_footer">
                     </div>
                     <div class="quick-link-inner">
                         <ul class="links">
@@ -42,7 +42,7 @@
                 <div class="footer-one-single-wized">
                     <div class="wized-title">
                         <h5 class="title">Contact Us</h5>
-                        <img src="invena/images/footer/under-title.png" alt="finbiz_footer">
+                        <img src="{{ asset('invena/images/footer/under-title.png') }}" alt="finbiz_footer">
                     </div>
                     <div class="quick-link-inner d-block">
                         <div class="signle-footer-contact-8">

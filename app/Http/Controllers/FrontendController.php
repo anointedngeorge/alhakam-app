@@ -39,4 +39,11 @@ class FrontendController extends Controller
                 return view("frontend.theme1.index", $data);
         }
     }
+
+    public function page($pagename, $title, $id)
+    {
+        $data['page_title'] = $title;
+        $data['id'] = $id;
+        return view("frontend.theme1.{$pagename}", $data);
+    }
 }

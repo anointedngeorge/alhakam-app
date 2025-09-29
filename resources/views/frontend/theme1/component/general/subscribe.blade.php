@@ -8,8 +8,8 @@
                         <h3 class="title">Stay Updated with <br> the Latest News!</h3>
                     </div>
                     <form action="#">
-                        <input type="text" placeholder="Enter Email Address">
-                        <button class="rts-btn btn-primary btn-white">Subscribe Now</button>
+                        <input readonly type="text" placeholder="Enter Email Address">
+                        <button disabled class="rts-btn btn-primary btn-white">Subscribe Now</button>
                     </form>
                 </div>
             </div>

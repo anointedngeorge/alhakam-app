@@ -1,66 +1,6 @@
 <?php
-$teams = (object) [
-    (object) [
-        'name' => 'Senator (Dr.) Abdullahi Adamu, CON',
-        'image' => "invena/images/about/founder.png",
-        'position' => 'Founder',
-        'fb' => '#',
-        'lk' => '#',
-        'is' => '#'
-    ],
-    (object) [
-        'name' => 'PROF ODE OJOWU, OFR',
-        'image' => "invena/images/about/b1.jpeg",
-        'position' => 'Chairman of the Board',
-        'fb' => '#',
-        'lk' => '#',
-        'is' => '#'
-    ],
-    (object) [
-        'name' => 'Arc. Kabir Ibrahim',
-        'image' => "invena/images/about/b3.jpeg",
-        'position' => 'Director',
-        'fb' => '#',
-        'lk' => '#',
-        'is' => '#'
-    ],
+$teams = $teamsContent;
 
-    (object) [
-        'name' => 'DR. ABDULKARIM KANA',
-        'image' => "invena/images/about/b4.jpeg",
-        'position' => 'Director',
-        'fb' => '#',
-        'lk' => '#',
-        'is' => '#'
-    ],
-    (object) [
-        'name' => 'ENGR. MUHAMMAD NURAINI',
-        'image' => "invena/images/about/b5.jpeg",
-        'position' => 'Director',
-        'fb' => '#',
-        'lk' => '#',
-        'is' => '#'
-    ],
-
-    (object) [
-        'name' => 'MUHAMMAD KABIR ABUBAKAR',
-        'image' => "invena/images/about/av2.png",
-        'position' => 'Director',
-        'fb' => '#',
-        'lk' => '#',
-        'is' => '#'
-    ],
-
-    (object) [
-        'name' => 'PIUS ADEMU AKUBO, SAN, FCArb',
-        'image' => "invena/images/about/b2.jpeg",
-        'position' => 'Director',
-        'fb' => '#',
-        'lk' => '#',
-        'is' => '#'
-    ],
-    
-];
 ?>
 
 
@@ -71,7 +11,7 @@ $teams = (object) [
                 <div class="title-style-four center">
                     <span class="pre">CHAIRMAN AND MEMBERS</span>
                     <h2 class="title rts-text-anime-style-1">
-                        OF BOARD  <span>OF DIRECTORS</span>
+                        OF BOARD <span>OF DIRECTORS</span>
                     </h2>
                 </div>
             </div>
@@ -80,13 +20,13 @@ $teams = (object) [
 
             <div class="swiper mySwiperh2_clients" dir="ltr">
                 <div class="swiper-wrapper">
-                    @foreach ($teams as $team)
+                    @foreach ($teams as $index => $team)
                         <div class="swiper-slide col-lg-4 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.2"
                             data-duration="1.2">
                             {{-- <div class="col-lg-4 col-md-6 col-sm-12" data-animation="fadeInUp" data-delay="0.2"
                                 data-duration="1.2"> --}}
                                 <div class="single-team-area-one-start">
-                                    <a href="team-details.html" class="thumbnail">
+                                    <a href="{{ route('frontend.page', ['pagename'=>'team-details', 'title'=> $team->name, 'id'=> $index]) }}" class="thumbnail">
                                         <img style="width: 100%; height: 500px;" src="{{ asset($team->image) }}" alt="team">
                                     </a>
                                     <div class="inner-content">

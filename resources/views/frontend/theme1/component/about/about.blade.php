@@ -6,15 +6,25 @@ $about = (object) [
     'description' => (object) [
         (object) [
             'title' => 'Profile',
-            'content' => 'Al\'Hakam Holdings Ltd derives its name from an Arabic word Al\'Hakam meaning "the one who always delivers justice, in every situation, to everyone." It is a private equity and investment holding company. The company proactively identifies growth opportunities in various industries of interest. Founded in 2020, Al\'Hakam Holdings has built a sizable portfolio of investments. Our main focus is on creating and optimising value on shareholders\' interest through our continuous effort to build a long-term sustainable group of companies. Al\'Hakam Holdings is committed to a philosophy of transparent work ethics, business integrity and accountability throughout all our business transactions.',
+            'content' => "
+                Al’ Hakam Holdings Ltd is a private investment holding company operating in the agricultural value chain. The company
+proactively identifies growth opportunities in various activities in the value chain and has built a sizable portfolio of
+investments with the main focus of creating and optimising value on shareholders' interest through its continuous effort
+to build a long-term sustainable group of companies. Al ‘Hakam Holdings is committed to a philosophy of transparent
+work ethics, business integrity and accountability throughout all our business transactions. The Group aims to leverage
+on the country's agricultural transformation agenda and to become one of the dominant contributors in sustainable
+economic growth through its investments and job creation especially in the area of agriculture. The Group business
+interest spans diverse sectors of the economy including Hospitality, Agriculture, Manufacturing, Financial Services,
+Commodity Exports, Real Estate and Infrastructures Development.
+            ",
         ],
-        (object) [
-            'title' => '',
-            'content' => "Our key area of focus is on incorporating the country's agricultural
-transformation agenda, therefore, becoming one of the dominant
-contributors in sustainable economic growth through our investments and
-job creation especially in the area of agriculture..."
-        ]
+//         (object) [
+//             'title' => '',
+//             'content' => "Our key area of focus is on incorporating the country's agricultural
+// transformation agenda, therefore, becoming one of the dominant
+// contributors in sustainable economic growth through our investments and
+// job creation especially in the area of agriculture..."
+//         ]
     ],
 
     'bigImage' => asset('invena/images/about/ab20.jpg'),
