@@ -218,7 +218,7 @@ commodities from other farms",
 
                 (object) [
                     'title' => 'Tabbas Seeds Ltd and Agwada Seeds Ltd',
-                    'image' => 'invena/images/gallery/tabbas.jpg',
+                    'image' => 'invena/images/gallery/tabbas.jpeg',
                     'icon' => 'invena/images/why-choose/icons/01.svg',
                     'content' => "Tabbas Seeds Ltd and Agwada Seeds Ltd were incorporated on the 3rd and 4th of February
 2020 respectively. The companies were incorporated to carry on the business of production,

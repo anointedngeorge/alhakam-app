@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" style="background-color: #c9c9c9;">
     <div class="row">
         <div class="col-lg-12">
             <div class="header-main-one-wrapper">

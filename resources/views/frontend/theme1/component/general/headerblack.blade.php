@@ -32,7 +32,7 @@
             </div>
         </div>
     </div>
-    <div class="header-main">
+    <div class="header-main" style="background-color: #c9c9c9; margin-bottom: 65px;">
         @include('frontend.theme1.component.general.navigation')
     </div>
 </header>
