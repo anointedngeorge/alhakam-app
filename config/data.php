@@ -29,6 +29,6 @@ return [
     "footer_about" => "The company proactively identifies growth opportunities in various industries of interest. Founded in 2020, Al'Hakam Holdings has built a sizable portfolio of investments.",
 
     "dash_meta" => "",
-    "dash_description" => ""
+    "dash_description" => "",
 
 ];

@@ -1,8 +1,8 @@
 <?php
 $about = (object) [
     "topTitle" => config('data.name'),
-    'title' => 'Innovative Solutions',
-    'subTitle' => 'for Modern Agriculture',
+    'title' => 'Pioneering Innovation',
+    'subTitle' => 'for the Modern Era',
     'description' => (object) [
         (object) [
             'title' => 'Profile',

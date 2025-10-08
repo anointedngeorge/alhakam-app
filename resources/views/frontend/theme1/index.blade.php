@@ -57,7 +57,7 @@
 
 
     <!-- rts business case area start -->
-    @include('frontend.theme1.component.general.galleryslide')
+    @include('frontend.theme1.component.home.galleryslide')
     <!-- rts business case area end -->
     
 
