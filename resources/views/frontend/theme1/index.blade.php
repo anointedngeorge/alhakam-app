@@ -2,13 +2,13 @@
 
 
 @section('content')
+      <!-- rts about area start -->
+    @include('frontend.theme1.component.home.about')
+    <!-- rts about area end -->
+
     <!-- banner three area start -->
     @include('frontend.theme1.component.home.slider')
     <!-- banner three area end -->
-
-    <!-- rts about area start -->
-    @include('frontend.theme1.component.home.about')
-    <!-- rts about area end -->
 
     <!-- rts brand area start -->
     {{-- @include('frontend.theme1.component.home.brand') --}}

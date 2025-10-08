@@ -48,7 +48,7 @@ class navigationProvider extends ServiceProvider
                     'show_on_header' => false
                 ],
                 (object) [
-                    'title' => 'Contact',
+                    'title' => 'Contact Us',
                     'url' => route('frontend.index', ['q' => 'contact']),
                     'show_on_footer' => false,
                     'show_on_header' => true
