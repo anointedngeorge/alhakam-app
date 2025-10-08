@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'name' => "Al'Hakam Holdings Ltd ",
+    'name' => "Al'Hakam Holdings",
     'phone1' => '(+234) 701-077-7824',
     'phone2' => '(+234) 803-669-7824',
     'address' => 'No. 9 Abu Abubakar Street, GRA, Keffi, Nasarawa',
