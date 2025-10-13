@@ -6,9 +6,12 @@
     @include('frontend.theme1.component.home.about')
     <!-- rts about area end -->
 
+    
     <!-- banner three area start -->
     @include('frontend.theme1.component.home.slider')
     <!-- banner three area end -->
+
+    <br><br>
 
     <!-- rts brand area start -->
     {{-- @include('frontend.theme1.component.home.brand') --}}
@@ -52,7 +55,7 @@
 
 
      <!-- rts blog area start -->
-     @include('frontend.theme1.component.general.team')
+     {{-- @include('frontend.theme1.component.general.team') --}}
      <!-- rts blog area end -->
 
 

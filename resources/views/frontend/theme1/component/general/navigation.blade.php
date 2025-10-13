@@ -18,8 +18,8 @@
                                             <a href="#">{{ $n->title }}</a>
                                             <ul class="submenu parent-nav">
                                                 @foreach ($n->children as $child)
-                                                    <li>
-                                                        <a href="{{ $child->url }}">{{ $child->title }}</a>
+                                                    <li style="cursor: pointer;" >
+                                                        <a  href="{{ $child->url }}">{{ $child->title }}</a>
                                                     </li>
                                                 @endforeach
                                             </ul>

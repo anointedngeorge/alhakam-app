@@ -2,9 +2,11 @@
 
 
 
-<?php
-$contents = $companies;
-?>
+@php
+    $contents = $companies;
+    $t = (int) $id;
+    $found = $contents[$t];
+@endphp
 
 
 
@@ -32,12 +34,7 @@ $contents = $companies;
     </div>
     <!-- about us area wrapper main end -->
 
-    @if ($id || $id == "0")
-        <?php
-            $found = $contents->$id;
-
-                        ?>
-        <!-- team details area main wrapper -->
+   <!-- team details area main wrapper -->
         <div class="team-details-top-wrapper-about rts-section-gapBottom mt-dec-section-inner pt--35">
             <div class="container">
                 <div class="row align-items-center">
@@ -62,9 +59,8 @@ $contents = $companies;
                     </div>
                 </div>
             </div>
-    @endif
-    </div>
 
+        </div>
 
-     @include('frontend.theme1.component.home.companies')
+    @include('frontend.theme1.component.home.companies')
 @endsection;

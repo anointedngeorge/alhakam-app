@@ -2,10 +2,12 @@
 use Illuminate\Support\Facades\File;
 
 $path = 'invena/images/gallery/folder1'; // relative to public/
+
 $photos = collect(File::files(public_path($path)))
+    ->sortByDesc(fn($file) => $file->getCTime()) // or getMTime() for modification time
     ->filter(fn($file) => !in_array($file->getFilename(), []))
     ->map(fn($file) => $file->getFilename())
-    ->take(4) // 👈 Limit to 4 files only
+    ->take(4)
     ->toArray();
 ?>
 
