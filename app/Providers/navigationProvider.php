@@ -27,31 +27,70 @@ class navigationProvider extends ServiceProvider
                     'title' => 'Home',
                     'url' => route('frontend.index'),
                     'show_on_footer' => true,
-                    'show_on_header' => true
+                    'show_on_header' => true,
+                    'has_children' => false,
+                    'children' => [
+                        (object) [
+                            'title' => '',
+                            'url' => '',
+                        ]
+                    ],
                 ],
                 (object) [
                     'title' => 'About',
-                    'url' => route('frontend.index', ['q' => 'about']),
+                    'url' => '',
                     'show_on_footer' => true,
-                    'show_on_header' => true
+                    'show_on_header' => true,
+                    'has_children' => true,
+                    'children' => [
+                        (object) [
+                            'title' => 'About US',
+                            'url' => route('frontend.index', ['q' => 'about']),
+                        ],
+                        (object) [
+                            'title' => 'Management',
+                            'url' => route('frontend.index', ['q' => 'management']),
+                        ],
+                    ],
                 ],
                 (object) [
                     'title' => 'Gallery',
                     'url' => route('frontend.index', ['q' => 'gallery']),
                     'show_on_footer' => true,
-                    'show_on_header' => true
+                    'show_on_header' => true,
+                    'has_children' => false,
+                    'children' => [
+                        (object) [
+                            'title' => '',
+                            'url' => '',
+                        ]
+                    ],
                 ],
-                (object) [
-                    'title' => 'Career',
-                    'url' => route('frontend.index', ['q' => 'carrier']),
-                    'show_on_footer' => true,
-                    'show_on_header' => false
-                ],
+                // (object) [
+                //     'title' => 'Career',
+                //     'url' => route('frontend.index', ['q' => 'carrier']),
+                //     'show_on_footer' => true,
+                //     'show_on_header' => false,
+                //     'has_children' => false,
+                //     'children' => [
+                //        (object) [
+                //             'title' => '',
+                //             'url' => '',
+                //         ]
+                //     ],
+                // ],
                 (object) [
                     'title' => 'Contact Us',
                     'url' => route('frontend.index', ['q' => 'contact']),
                     'show_on_footer' => false,
-                    'show_on_header' => true
+                    'show_on_header' => true,
+                    'has_children' => false,
+                    'children' => [
+                        (object) [
+                            'title' => '',
+                            'url' => '',
+                        ]
+                    ],
                 ],
             ]);
 
@@ -232,28 +271,28 @@ operations due to the ongoing process of certification by the National Agricultu
             ]);
 
             $view->with('teamsContent', (object) [
-                (object) [
-                    'name' => 'Senator (Dr.) Abdullahi Adamu, CON',
-                    'image' => "invena/images/about/founder.png",
-                    'position' => 'Founder',
-                    'fb' => '#',
-                    'lk' => '#',
-                    'is' => '#',
-                    "content" => "
-            His Excellency is the first elected Executive Governor of Nasarawa State (1999 -2007). A
-distinguished Senator representing Nasarawa West, he was the Chairman, Senate Committee on
-Agriculture. Prior to incursion into active politics, he was a Member of the Board of Directors of the
-NTA Zone D in 1976/1978 and Chairman Board of Directors, Benue Cement Company, Gboko 1980-
-1983.He served as Minister of State in the Ministry of Works and Housing of the Federal Republic of
-Nigeria from February, 1995 to November 17. Senator Adamu is a recipient of several honours
-including Honorary Doctorate including degrees in Engineering by the Rivers State University of
-Science and Technology and Federal University of Akure in 2003 and 2004 respectively, Doctorate degree of Science in Public
-Administration by the Federal University of Port-Harcourt, 2006 and Doctorate degree in Law by Nnamdi Azikiwe University
-Awka. He was awarded the prestigious honour of the Commander of the Order of the Niger (CON) in 2008 A visionary leader
-and a pioneer, Senator Abdullahi Adamu established the Nasarawa State University Keffi and other tertiary institutions and
-founded Al ‘Hakam Holdings Ltd and many companies in the area of agriculture.
-        "
-                ],
+//                 (object) [
+//                     'name' => 'Senator (Dr.) Abdullahi Adamu, CON',
+//                     'image' => "invena/images/about/founder.png",
+//                     'position' => 'Founder',
+//                     'fb' => '#',
+//                     'lk' => '#',
+//                     'is' => '#',
+//                     "content" => "
+//             His Excellency is the first elected Executive Governor of Nasarawa State (1999 -2007). A
+// distinguished Senator representing Nasarawa West, he was the Chairman, Senate Committee on
+// Agriculture. Prior to incursion into active politics, he was a Member of the Board of Directors of the
+// NTA Zone D in 1976/1978 and Chairman Board of Directors, Benue Cement Company, Gboko 1980-
+// 1983.He served as Minister of State in the Ministry of Works and Housing of the Federal Republic of
+// Nigeria from February, 1995 to November 17. Senator Adamu is a recipient of several honours
+// including Honorary Doctorate including degrees in Engineering by the Rivers State University of
+// Science and Technology and Federal University of Akure in 2003 and 2004 respectively, Doctorate degree of Science in Public
+// Administration by the Federal University of Port-Harcourt, 2006 and Doctorate degree in Law by Nnamdi Azikiwe University
+// Awka. He was awarded the prestigious honour of the Commander of the Order of the Niger (CON) in 2008 A visionary leader
+// and a pioneer, Senator Abdullahi Adamu established the Nasarawa State University Keffi and other tertiary institutions and
+// founded Al ‘Hakam Holdings Ltd and many companies in the area of agriculture.
+//         "
+//                 ],
                 (object) [
                     'name' => 'PROF Ode Ojowu, OFR',
                     'image' => "invena/images/about/b1.jpeg",

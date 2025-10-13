@@ -17,7 +17,7 @@
      @include('frontend.theme1.component.general.mission')
 
     <!-- rts team area start -->
-    @include('frontend.theme1.component.general.team')
+    {{-- @include('frontend.theme1.component.general.team') --}}
     <!-- rts team area end -->
 
 

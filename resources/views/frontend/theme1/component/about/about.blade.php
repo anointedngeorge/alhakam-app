@@ -53,7 +53,7 @@ Commodity Exports, Real Estate and Infrastructures Development.
 <div class="rts-about-area about-bg-four bg_image rts-section-gap" id="about">
     <div class="container pt--50">
         <div class="row align-items-center">
-            <div class="col-lg-7">
+            <div class="col-lg-12">
                 <div class="about-content-four-left">
                     <div class="title-style-four left">
                         <span class="pre">{{ $about->topTitle }}</span>
@@ -90,30 +90,14 @@ Commodity Exports, Real Estate and Infrastructures Development.
                     </div> --}}
                 </div>
             </div>
-            <div class="col-lg-5">
+            {{-- <div class="col-lg-5">
                 <div class="thumbnail-about-right-4">
                     <div class="large-iamge">
                         <img src="{{ $about->bigImage }}" alt="about">
                     </div>
-                    {{-- <div class="small-image images-r">
-                        <img src="{{ $about->smallImage }}" alt="about">
-                    </div> --}}
-                    {{-- <div class="poligon-shape images-r">
-                        <img src="{{ asset('invena/images/about/poligon-shape.svg') }}" alt="">
-                    </div> --}}
-                    {{-- <div class="video-area">
-                        <img src="{{ asset('invena/images/about/video.svg') }}" alt="video">
-                        <div class="vedio-icone">
-                            <a class="video-play-button play-video popup-video" href="{{ $about->link }}">
-                                <span></span>
-                            </a>
-                            <div class="video-overlay">
-                                <a href="#section1" class="video-overlay-close">×</a>
-                            </div>
-                        </div>
-                    </div> --}}
+                    
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>
