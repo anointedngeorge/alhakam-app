@@ -1,7 +1,7 @@
 <?php 
 use Illuminate\Support\Facades\File;
 
-$path = 'invena/images/gallery/folder1'; // relative to public/
+$path = 'invena/images/gallery/folder1/folder2'; // relative to public/
 
 $photos = collect(File::files(public_path($path)))
     ->sortByDesc(fn($file) => $file->getCTime()) // or getMTime() for modification time

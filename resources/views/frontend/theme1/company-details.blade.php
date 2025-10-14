@@ -9,9 +9,7 @@
 @endphp
 
 
-
 @section('content')
-
     <!-- about us area wrapper main -->
     <div class="rts-breadcrumb-area">
         <div class="container">
